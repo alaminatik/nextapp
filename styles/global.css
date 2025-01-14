@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .2);
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 10px;
+}
+
+.\!object-contain {
+  object-fit: contain !important;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user-info h5 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.parents {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,a:hover {
+  outline-width: 0;
+}
+
+.custom-link {
+  color: black; /* Set text color to black */
+  text-decoration: none; /* Remove underline */
+}
+
+.custom-link:hover {
+  text-decoration: none; /* Optional: Add underline on hover */
+}
+.box-width {
+  width: 30%;
+  /* display: grid; */
+  float: left;
+  min-height: 530px;
+}
+
+/* Container for all news cards */
+.news-container {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+/* Individual news cards */
+.news-card {
+  color: black; /* Text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px;
+}
+
+.news-card:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+  border-color: #000; /* Change border color on hover */
+}
+
+/* Card content styles */
+.card-header img {
+  max-width: 100%; /* Make images responsive */
+  height: auto;
+  border-radius: 8px; /* Match the card's corners */
+}
+
+.card-body h4 {
+  margin: 10px 0; /* Add spacing between the title and description */
+  font-size: 1.5rem;
+  color: #5ea56e;
+}
+
+.card-body p {
+  margin-bottom: 8px;
+  color: #080707; /* Softer color for the description */
+}
+
+.user-info h5 {
+  font-size: 0.9rem;
+  color: #131010; /* Light gray color for the date */
+}
+
